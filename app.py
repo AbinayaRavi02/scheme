@@ -6,7 +6,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load models and preprocessors
-with open("naive_bayes.pkl", "rb") as f:
+with open("naive_bayes .pkl", "rb") as f:
     nb_model = pickle.load(f)
 
 with open("svm_model (2).pkl", "rb") as f:
